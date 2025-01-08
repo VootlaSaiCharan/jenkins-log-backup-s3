@@ -3,7 +3,9 @@
 # Author : Vootla Sai Charan
 # Created on 08/01/2025
 
+#Jenkins Home Directory
 JENKINS_HOME="/var/lib/jenkins"
+#S3 Bucket Name
 BUCKET_NAME="s3://jenkins-backup-logs"
 DATE=$(date +%Y-%m-%d)
 
